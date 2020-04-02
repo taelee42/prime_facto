@@ -6,7 +6,7 @@
 /*   By: taelee <taelee@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/02 21:55:18 by taelee            #+#    #+#             */
-/*   Updated: 2020/04/02 21:55:19 by taelee           ###   ########.fr       */
+/*   Updated: 2020/04/02 21:57:26 by taelee           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,8 +66,8 @@ unsigned int	ft_even_to_odd(unsigned n)
 
 void			ft_prime_factors(unsigned int n)
 {
-	int i;
-	int occurred_before;
+	unsigned int	i;
+	int				occurred_before;
 	
 	i = 3;
 	while (i * i <= n)
@@ -114,7 +114,6 @@ unsigned int	ft_error_handle(int argc, char **argv)
 {
 	long long	n;
 	int			i;
-	int			len;
 
 	if (argc != 2)
 		ft_error_msg("Enter only one parameter\n");
