@@ -53,29 +53,31 @@
 
 # 2. Error handling
 
-### 1. 인자가 없거나 2개 이상 들어올 때:
+### 	1. 인자가 없거나 2개 이상 들어올 때:
 
-   `"Enter only one argument"` 출력
+ 		  `"Enter only one argument"` 출력
 
 
-### 2. 들어온 인자가 숫자만으로 이루어지지 않았을 때( '-' 기호 포함):
+### 	2. 들어온 인자가 숫자만으로 이루어지지 않았을 때( '-' 기호 포함):
 
-   `"Enter only a positive number"` 출력
+​		   `"Enter only a positive number"` 출력
 
-### 3. 자릿수가 10자리 넘을 때:
+### 	3. 자릿수가 10자리 넘을 때:
 
-   `"Enter a number less than or equal to 4294967295"` 출력
+​		   `"Enter a number less than or equal to 4294967295"` 출력
 
-   <u>다만, 앞에 0이 여러개 있을 경우 0을 무시하고 자릿수를 셈</u>
-   <u>예를 들어 0000000306 = 306으로 3자리로 계산함</u>
+​		   <u>다만, 앞에 0이 여러개 있을 경우 0을 무시하고 자릿수를 셈</u>
+​		   <u>예를 들어 0000000306 = 306으로 3자리로 계산함</u>
 
-### 4. 10자리 이하의 숫자를 long long 숫자형으로 변환 후 2^32-1보다 클 때:
+### 	4. 10자리 이하의 숫자를 long long 숫자형으로 변환 후 2^32-1보다 클 때:
 
-   `"Enter a number less than or equal to 4294967295 (= 2^32-1)"` 출력
+​		   `"Enter a number less than or equal to 4294967295 (= 2^32-1)"` 출력
 
-### 5. 마찬가지로 2보다 작을 때
+### 	5. 마찬가지로 2보다 작을 때
 
-   `"Enter a number greater than or equal to 2"` 출력
+ 		  `"Enter a number greater than or equal to 2"` 출력
+
+
 
 
 
